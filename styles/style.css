@@ -1,6 +1,30 @@
-body{
-    background-color:red;
+ul{
+    list-style: none;
+}
+a, p{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
 }
 a{
-    color: red;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+#store-link{
+    color: #1a0dab;
+}
+#store-link:visited{
+    color:#609;
+}
+.bottom-links, .bottom-links:visited{
+    color:#70757a;
+    font-size: 14px;
+}
+.top-left, .top-left:visited{
+    color:#000;
+}
+.top-right, .top-right:visited{
+    color:#000000DE;
 }
