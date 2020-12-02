@@ -7,50 +7,64 @@
 <body>
     <div class="header">
         <ul class="top-links">
-           <div> <li><a class="top-left" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
-            <li><a class="top-left" href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
-            <li style="float:right"><a class="top-right" href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
-            <li style="float:right"><a class="top-right" href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
-            <li style="float:right"><a class="top-right" href="">Squares</a></li>
-            <li style="float:right"><a href="https://github.com/qpongratz">Circle</a></li>
+           <div class="top-left"> 
+                <li><a class="top-left" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+                <li><a class="top-left" href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+            </div>
+            <div class="top-right">
+                <li><a class="top-right" href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
+                <li><a class="top-right" href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+                <li><a class="top-right" href="">Squares</a></li>
+                <li><a href="https://github.com/qpongratz">Circle</a></li>
+            </div>
         </ul>
     </div>
     <br>
+
     <div class="logo">
         <img src="images/googlelogo_color_272x92dp.png" height=92px width=272px alt="Google Logo">
     </div>
-    <div class="search-bar">
-        <div class="search-ends">
-            <img style="float:left" src="images/maginfying glass.jpg" height=20px alt="maginfying glass">
+    <form>
+        <div class="search-bar">
+            <div class="search-ends">
+                <img style="float:left" src="images/maginfying glass.jpg" height=20px alt="maginfying glass">
+            </div>
+            <div class="search-text">
+                <input class="search" id="text-search" type="text" width=auto>
+            </div>
+            <div class=search-ends>
+                <img style="float:right" src="images/microphone.png" height=30px alt="microphone">
+            </div>
+        </div> 
+
+        <div class="buttons">
+            <div class="button">
+                <input class="button" value="Google Search" id="google-search" name="Google Search" type="submit">
+            </div>
+            <div class="button">
+                <input class="button" id="lucky" name="I'm feeling Lucky" value="I'm Feeling Lucky" type="button">
+            </div>
         </div>
-        <div class="search-text">
-            <input class="search" id="text-search" type="text" width=auto>
-        </div>
-        <div class=search-ends>
-            <img style="float:right" src="images/microphone.png" height=30px alt="microphone">
-        </div>
-    </div> 
-    <div>
-        <div>
-            <input class="button" value="Google Search" id="google-search" name="Google Search" type="submit">
-        </div>
-        <div>
-            <input class="button" id="lucky" name="I'm feeling Lucky" value="I'm Feeling Lucky" type="sumbit">
-        </div>
-    </div>
+    </form>
     <div class="cyber-monday">
         <img src="images/shopping-bag.png" height=48px width=46px alt="Google shopping bag">
-        <p>Cyber Monday savings are now live on the <a id="store-link" href="https://www.google.com/url?q=https://store.google.com/%3Futm_source%3Dhpp%26utm_medium%3Dgoogle_oo%26utm_campaign%3DGS105977&source=hpp&id=19021977&ct=3&usg=AFQjCNHVMvyvS8pqd_FLm7602dgKiEIVGw&sa=X&ved=0ahUKEwieg_vx_qvtAhVJcq0KHeQeAnYQ8IcBCBE">Google Store</a></p>
+        <span>Cyber Monday savings are now live on the <a id="store-link" href="https://www.google.com/url?q=https://store.google.com/%3Futm_source%3Dhpp%26utm_medium%3Dgoogle_oo%26utm_campaign%3DGS105977&source=hpp&id=19021977&ct=3&usg=AFQjCNHVMvyvS8pqd_FLm7602dgKiEIVGw&sa=X&ved=0ahUKEwieg_vx_qvtAhVJcq0KHeQeAnYQ8IcBCBE">Google Store</a></span>
     </div>
     <div class="footer">
         <ul>
-            <li><a class="bottom-links" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
-            <li><a class="bottom-links" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
-            <li><a class="bottom-links" href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
-            <li style="float:center"><a class="bottom-links" href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content="><img src="images/leaf-icon.png" height=13px width=auto alt="Leaf icon"> Carbon neutral since 2007</a></li>
-            <li style="float:right"><a class="bottom-links" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
-            <li style="float:right"><a class="bottom-links" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></li>
-            <li style="float:right"><a class="bottom-links" href="https://www.google.com/preferences?hl=en">Settings</a></li>
+            <div class="bottom-left">
+                <li><a class="bottom-links" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                <li><a class="bottom-links" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+                <li><a class="bottom-links" href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+            </div>
+            <div class="bottom-middle">    
+                <li><a class="bottom-links" href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content="><img src="images/leaf-icon.png" height=13px width=auto alt="Leaf icon"> Carbon neutral since 2007</a></li>
+            </div>
+            <div class="bottom-right">
+                <li><a class="bottom-links" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
+                <li><a class="bottom-links" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></li>
+                <li><a class="bottom-links" href="https://www.google.com/preferences?hl=en">Settings</a></li>
+            </div>
         </ul>
     </div>
 </body>
